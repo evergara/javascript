@@ -6,7 +6,8 @@ import {
   callbackComponent,
   promiseComponent,
   promiseRaceComponent,
-  asyncComponent
+  asyncComponent,
+  asyncAwaitComponent
 } from "./src/concepts/index";
 
 document.querySelector("#app").innerHTML = `
@@ -31,4 +32,5 @@ const element = document.querySelector(".card");
 //callbackComponent(element)
 //promiseCompoponent(element)
 //promiseRaceComponent(element);
-asyncComponent(element);
+//asyncComponent(element);
+asyncAwaitComponent(element)
