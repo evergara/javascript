@@ -292,8 +292,8 @@ body {
   padding: 0;
   list-style: none;
   position: absolute;
-  right: 0;
-  left: 0;
+  right: 142px;
+  left: 75px;
 }
 
 .filters li {
