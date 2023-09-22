@@ -1,9 +1,14 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import {environmentsComponent, callbackComponent, promiseCompoponent} from './src/concepts/index'
+import "./style.css";
+import javascriptLogo from "./javascript.svg";
+import viteLogo from "/vite.svg";
+import {
+  environmentsComponent,
+  callbackComponent,
+  promiseCompoponent,
+  promiseRaceCompoponent,
+} from "./src/concepts/index";
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
@@ -18,10 +23,10 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
-`
+`;
 
-const element = document.querySelector('.card');
+const element = document.querySelector(".card");
 //environmentsComponent(element)
 //callbackComponent(element)
-promiseCompoponent(element)
-
+//promiseCompoponent(element)
+promiseRaceCompoponent(element);
