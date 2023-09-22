@@ -16,7 +16,7 @@ const findHero = (id) => {
   });
 };
 
-export const promiseRaceCompoponent = (element) => {
+export const promiseRaceComponent = (element) => {
   console.log("Promise Race commponent");
   element.innerHTML = "Loading ...";
   const renderValue = (value) => {

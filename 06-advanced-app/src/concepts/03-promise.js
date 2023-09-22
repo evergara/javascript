@@ -16,7 +16,7 @@ const findHero = (id) => {
   });
 };
 
-export const promiseCompoponent = (element) => {
+export const promiseComponent = (element) => {
   console.log("Promise commponent");
   const heroId = "5d86371f1efebc31def272e2";
   const heroIdTwo = "5d86371f2343e37870b91ef1";
@@ -31,7 +31,7 @@ export const promiseCompoponent = (element) => {
     });
 };
 
-export const promiseCompoponent2 = (element) => {
+export const promiseComponent2 = (element) => {
   console.log("Promise commponent");
   const heroId = "5d86371f1efebc31def272e2";
   const heroIdTwo = "5d86371f2343e37870b91ef1";
@@ -50,7 +50,7 @@ export const promiseCompoponent2 = (element) => {
     });
 };
 
-export const promiseCompoponent1 = (element) => {
+export const promiseComponent1 = (element) => {
   console.log("Promise commponent");
   const heroId = "5d86371f1efebc31def272e2";
 
@@ -73,7 +73,7 @@ const renderHeroError = (element, error) => {
   element.innerHTML = `<h3> ${error}<h3>`;
 };
 
-// export const promiseCompoponent = (element) => {
+// export const promiseComponent = (element) => {
 //   console.log("Promise commponent");
 //   const heroId = "5d86371f1efebc31def272e2-";
 
