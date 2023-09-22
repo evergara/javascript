@@ -2,6 +2,6 @@
  *
  * @param {HTMLDivElement} element
  */
-export const demoCompoponent = (element) => {
+export const demoComponent = (element) => {
   console.log("Demo commponent");
 };

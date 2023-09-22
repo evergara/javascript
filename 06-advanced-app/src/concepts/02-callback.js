@@ -4,7 +4,7 @@ import { heroes } from "../data/heroe";
  *
  * @param {HTMLDivElement} element
  */
-export const callbackCompoponent = (element) => {
+export const callbackComponent = (element) => {
   const heroId = "5d86371f1efebc31def272e2";
   findHero(heroId, (error, hero) => {
     if (error) {

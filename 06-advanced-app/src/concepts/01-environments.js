@@ -2,7 +2,7 @@
  * This function rende conten in a Element of DOM
  * @param {HTMLDivElement} element
  */
-export const environmentsCompoponent = (element) => {
+export const environmentsComponent = (element) => {
   console.log(import.meta.env);
   const html = `
          Variables:
