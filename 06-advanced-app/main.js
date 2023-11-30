@@ -7,7 +7,8 @@ import {
   promiseComponent,
   promiseRaceComponent,
   asyncComponent,
-  asyncAwaitComponent
+  asyncAwaitComponent,
+  asyncAwaitSincronizationComponent
 } from "./src/concepts/index";
 
 document.querySelector("#app").innerHTML = `
@@ -33,4 +34,5 @@ const element = document.querySelector(".card");
 //promiseCompoponent(element)
 //promiseRaceComponent(element);
 //asyncComponent(element);
-asyncAwaitComponent(element)
+//asyncAwaitComponent(element)
+asyncAwaitSincronizationComponent(element);
